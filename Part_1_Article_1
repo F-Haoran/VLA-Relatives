@@ -1,0 +1,40 @@
+Part I Articles About LLM/NLP 
+(The notes are based on understanding of articles)
+  Article 1: Attention Is All You Need.[1]
+
+    1. Background:
+      (1)Convolutional Neural Networks:
+        Example: Image->(Convolution->ReLU->Pooling)->(Convolution->ReLU->Pooling)->Output
+      (2)Recurrent Neural Networks:
+        Example: I am a person(with Memory).
+
+    2. General Model: (with ReLU behind each Sublayer)
+      Encoder:
+        Sublayer1: Multi-head self-attention
+        Sublayer2: Feed forward
+      Decoder:
+        Sublayer1: Multi-head self-attention
+        Sublayer2: Multi-head self-attention with output from Encoder
+        Sublayer3: Feed forward
+       
+    3.Sublayers:
+      Single-head Attetion: Using the formula in article.
+      Multi-head Attention: Doing multiple attentions at same time.
+      Feed forward: F_2(F_1(x))where F_1(x) and F_2(x) are w_j · x + b_j
+
+   4. Attention: 
+      Queries, Keys of dimensions and Values of dimensions:
+      Example: In the library, I wish to find a book, named as "Attention".(Query)
+               The library has keyword: "attention".(Key)
+               The library knows position of this book, Attention.(Value)
+               Using Key and Query to find similarity of searching result
+               Using result of them and value to calculate matches(final search results).
+
+      
+
+  
+
+    
+  
+
+  
