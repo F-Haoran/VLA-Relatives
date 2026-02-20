@@ -29,10 +29,7 @@ Part I Articles About LLM/NLP
                The library knows position of this book, Attention.(Value)
                Using Key and Query to find similarity of searching result
                Using result of them and value to calculate matches(final search results).
-Bibliography
-[1]A. Vaswani et al., “Attention Is All You Need,” arXiv.org, 2017. https://arxiv.org/abs/1706.03762
 
-  
 
     
   
